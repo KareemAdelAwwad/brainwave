@@ -38,13 +38,13 @@ const Roadmap = () => (
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
-                        className="mr-2.5"
+                        className="mr-2.5 max-sm:mr-1.5"
                         src={item.status === "done" ? check2 : loading1}
                         width={16}
                         height={16}
                         alt={status}
                       />
-                      <div className="tagline">{status}</div>
+                      <div className="tagline max-sm:text-[10px]">{status}</div>
                     </div>
                   </div>
 
